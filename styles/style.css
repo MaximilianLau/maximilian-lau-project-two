@@ -255,6 +255,10 @@ img {
   transition: all 0.2s ease-in;
 }
 
+header {
+  background-color: white;
+}
+
 .top-nav-wrap {
   width: 60%;
   margin: 0 auto;
