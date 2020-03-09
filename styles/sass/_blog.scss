@@ -1,0 +1,227 @@
+/*blog STYLES */
+.blog-whitebg {
+    background-color:white;
+    width:66.67%;
+    margin:0 auto;
+    margin-top:-100px;
+    position:relative;
+    padding-bottom:100px;
+}
+
+.blog-bg {
+    background-color:rgb(237,237,237);
+}
+
+.blog-bg h2, 
+.blog-bg h1 {
+    font-family:"PlayFair Display", serif;
+    font-size:3.0rem;
+}
+
+/* Blog section */
+.blog-wrapper {
+    width:90%;
+    margin:0 auto;
+}
+
+/* related posts SECTION */
+
+.related-posts-wrap {
+    width:90%;
+    margin:0 auto;
+    padding-bottom:50px;
+    text-align:center;
+}
+.blog-title {
+    text-align:center;
+    margin:0 auto;
+}
+.blog-title h1 {
+    width:60%;
+    padding:50px 0;
+    margin:0 auto;
+    line-height:40px;
+}
+.blog-title p {
+    font-weight:700;
+    padding-bottom:50px;
+}
+
+.blog-author {
+    display:grid;
+    grid-template-columns: 1fr 5fr 2fr 2fr 2fr;
+    align-items:center;
+    grid-gap:20px;
+    padding-bottom:25px;
+    border-bottom:1px solid rgb(204,204,204);
+}
+.blog-author-image img {
+    border-radius:50%;
+}
+
+.blog-author-name p:first-child,
+.blog-author-date p:first-child,
+.blog-author-category p:first-child,
+.blog-author-tags p:first-child {
+    color:black;
+    font-size:1.5rem;
+    font-weight:700;
+    font-family:'PlayFair Display', serif;
+}
+
+.blog-text {
+    padding-top:40px;
+}
+.blog-text p {
+    padding:10px 0;
+}
+
+.blog-share h4,
+.blog-share a {
+    display:inline;
+}
+
+.blog-share h4 {
+    font-size:1.6rem;
+    font-family:"PlayFair Display", serif;
+    font-weight:700;
+    padding-right:10px;
+}
+
+.blog-share {
+    padding:50px 0 75px 0;
+}
+.blog-share i {
+    padding:0 5px;
+    font-size:2.0rem;
+}
+
+/* related posts SECTION */
+.related-posts-title {
+    padding-bottom:20px;
+    border-bottom:1px solid rgb(204,204,204);
+    text-align:left;
+}
+.related-posts-gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:25px;
+    padding:50px 0;
+    text-align:left;
+}
+.related-posts-gallery p,
+.related-posts-gallery h3,
+.related-posts-gallery button {
+    margin:0 20px;
+}
+
+.related-posts-gallery p {
+    padding:10px 0;
+}
+.related-posts-gallery h3 {
+    font-size:1.5rem;
+    font-weight:700;
+    font-family: "PlayFair Display", serif;
+    line-height:20px;
+}
+
+.related-posts-gallery button {
+    border:none;
+    background-color:white;
+    font-size:1.3rem;
+    color:rgb(153,153,153);
+    padding:25px 0;
+}
+/* COMMENTS SECTION */
+
+.comments-wrap {
+    width:90%;
+    margin:0 auto;
+}
+.comments-wrap h2 {
+    padding-bottom:25px;
+    border-bottom:1px solid rgb(153,153,153);
+    margin-bottom: 50px;
+}
+.comments-posted {
+    display:grid;
+    grid-template-columns: 1fr 15fr;
+    grid-gap:25px;
+    padding-bottom:25px;
+}
+.comments-posted-text {
+    padding:10px 25px;
+}
+.comments-posted-text p:first-child{
+    font-weight:700;
+}
+.lightgrey {
+    color:rgb(204,204,204);
+    padding-bottom:20px;
+}
+.tiffanyblue {
+    color: rgb(164,241,220);
+    font-style: italic;
+}
+
+.comments-posted-text {
+    background-color: rgb(237,237,237)
+}
+.comments-triangle {
+	position: relative;
+	background: rgb(204,204,204);
+}
+
+.comments-triangle:after {
+	content: '';
+	position: absolute;
+	border: 10px solid transparent;
+	border-right-color: rgb(237,237,237);
+	border-left: 0;
+	margin-top: -85px;
+	margin-left: -35px;
+}
+
+
+/* leave-comment SECTION */
+
+
+.blog-message-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blog-message-wrap h2 {
+    padding:35px 0;
+    border-bottom:1px solid rgb(204,204,204);
+    margin-bottom:50px;
+}
+
+.blog-button button {
+    background-color: rgb(132,160,22);
+    color:white;
+    border-radius:5%;
+    border:none;
+    padding: 15px 40px;
+    font-family:"Poppins", serif;
+    font-size: 1.4rem;
+}
+
+.lastbg {
+    margin-bottom:150px;
+}
+
+
+/* Hover STATES*/
+.related-posts-gallery div:hover {
+    box-shadow:5px 10px 5px -5px rgb(237,237,237);
+}
+.related-posts-gallery div h3:hover {
+    text-decoration:underline;
+}
+
+
+.blog-text p:hover {
+    font-weight:700;
+    color:black;
+}

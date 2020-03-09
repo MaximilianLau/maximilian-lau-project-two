@@ -1,0 +1,223 @@
+.index-page h2 {
+    color:rgb(153,153,153);
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-family: "Poppins", serif;
+    font-weight:700;
+    
+}
+.index-page h3 {
+    font-size:4.0rem;
+    font-family:"PlayFair Display", serif;
+    padding:20px 0 75px 0;
+}
+
+/* a-little-about-us-section */
+.little-about-us-section {
+    background-color:rgb(237,237,237);
+    padding:150px 0;
+}
+.little-about-us-wrap {
+    width:60%;
+    margin:0 auto;
+    text-align:center;
+}
+.little-about-us-wrap h2 {
+    padding-bottom:75px;
+}
+
+.little-about-us-main {
+    display:grid;
+    grid-template-columns:50% 50%;
+}
+
+.little-about-us-images {
+    position:relative;
+    text-align:right;
+    margin:0 50px;
+}
+.little-about-us-images img:nth-child(1){
+    border:15px solid white;
+    width:80%;
+    right:0;
+}
+.little-about-us-images img:nth-child(2){
+    width: 50%;
+    position: absolute;
+    bottom: -8rem;
+    left: -2rem;
+}
+.little-about-us-text {
+    text-align:left;
+}
+.little-about-us-text h3 {
+    padding:25px 0 40px 0;
+    line-height:50px;
+}
+.little-about-us-text:before {
+    content:"";
+    border-top:1px solid black;
+    width:12.5%;
+    display:block;
+}
+.little-about-us-text p:nth-child(3) {
+    padding:20px 0;
+}
+.little-about-us-text p {
+    color: rgb(153, 153, 153);
+}
+.black {
+    color:black;
+    font-weight:700;
+}
+/* services section */
+.services-wrap {
+    margin:0 auto;
+}
+.services-main {
+    display:grid;
+    grid-template-columns: 60% 40%;
+}
+.services-list {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:60%;
+    margin:0 auto;
+    grid-gap:25px;
+    padding:150px 0;
+}
+.services-list-text p {
+    width:90%;
+}
+.services-item {
+    display:grid;
+    grid-template-columns: 10% 90%;
+    padding:15px 0;
+    grid-gap:5px;
+}
+.services-list-text h4 {
+    font-size:1.4rem;
+    text-transform:uppercase;
+    font-weight:700;
+    font-family:"Poppins", serif;
+    padding:5px 0 10px 0;
+    letter-spacing:1.5px;
+}
+.services-item i {
+    font-size: 2.4rem;
+}
+.services-photo {
+    background-image: url(../sunshine-assets/sunshine-assets/home-3.jpeg);
+}
+/* testimonials SECTION */
+.testimonials-bg {
+    display:grid;
+    grid-template-columns:20% 60% 20%;
+}
+.testimonials-arrowleft,
+.testimonials-arrowright {
+    margin:auto 0;
+}
+.testimonials-arrowleft div{
+    font-size:5rem;
+    font-weight:700;
+    margin-left:200px;
+}
+.testimonials-arrowright div{
+    font-size:5rem;
+    font-weight:700;
+    margin-right:200px;
+}
+
+.testimonials-title,
+.testimonials-text {
+    background:rgb(255, 255, 255);
+}
+.testimonials-title {
+    padding:75px 0;
+}
+.testimonials-title h3 {
+    padding-bottom:50px;
+}
+.testimonials-review {
+    width:75%;
+    margin:0 auto;
+    font-size:1.6rem;
+    font-style:italic;
+}
+.testimonials-stars i {
+    font-size:2.5rem;
+    color:rgb(248, 214, 18);
+    letter-spacing:-2px;
+    padding: 25px 0;
+}
+
+.bold {
+    font-weight:700;
+}
+.testimonials-bg {
+    padding:150px 0 100px 0;
+}
+
+/* gallery-six-images SECTION */
+.gallery-six-images-bg {
+    padding-bottom:150px;
+}
+.gallery-six-images-bg,
+.testimonials-bg {
+    background-image:url(../sunshine-assets/sunshine-assets/pattern.png);
+    text-align:center;
+}
+.gallery-six-images-wrap {
+    width:60%;
+    margin:0 auto;
+}
+
+.gallery-six-images {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+
+
+
+
+
+/* contact-us-SECTION */
+
+.contact-us-text h4 {
+    font-size: 2.5rem;
+    font-weight:600;
+    padding:25px 0;
+}
+.grey {
+    color:rgb(153,153,153);
+}
+
+.contact-us-text p:nth-child(6){
+    padding:25px 0;
+}
+
+.contact-us-text p:nth-child(7) {
+    padding:5px 0;
+}
+
+.contact-us-text h5:nth-child(8) {
+    font-size: 3.5rem;
+    font-weight:700;
+    font-family:"PlayFair Display", serif;
+}
+
+.contact-us-text {
+    margin:auto 0;
+    margin-left: 10%;
+}
+
+.contact-us-wrap {
+    display:grid;
+    grid-template-columns:55% 45%;
+    margin:0 auto;
+}
+

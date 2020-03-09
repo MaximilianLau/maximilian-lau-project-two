@@ -1,0 +1,80 @@
+/* more-info footer SECTION */
+.foot-bg,
+.more-info-bg {
+    background-color: rgb(33, 32, 32);
+}
+.more-info-wrap {
+    display:grid;
+    grid-template-columns:30% 30% 40%;
+    padding: 50px 0;
+}
+.more-info-sitemap-1 a,
+.more-info-sitemap-2 a {
+    text-transform:capitalize;
+    color:rgb(153,153,153);
+}
+
+.more-info-signup p {
+    color:rgb(153,153,153);
+}
+ 
+
+.foot-wrap,
+.more-info-wrap {
+    width:60%;
+    margin:0 auto;
+}
+
+/* Form Styles */
+.more-info-signup p {
+    padding-bottom:20px;
+}
+.more-info-signup form {
+    border-bottom:1px solid rgb(153,153,153);
+}
+
+.more-info-signup input[type=email] {
+    background-color:rgb(33, 32, 32);
+    border:none;
+    width:90%;
+    padding:10px 0;
+    margin:0;
+    font-size:1.2rem;
+}
+.more-info-signup button {
+    font-size:1.5rem;
+    padding:10px 0 0 0;
+    margin:0;
+    border:none;
+    background-color:rgb(33, 32, 32);
+    float:right;
+}
+.more-info-signup button i {
+    color:white;
+}
+
+ /*Footer-Copyright */
+
+
+ .foot-wrap {
+    display:flex;
+    padding:25px 0;
+    border-top:1px solid rgba(153,153,153, 0.5);
+}
+.foot-copyright {
+    flex:0 0 60%;
+}
+.foot-social {
+    flex:0 0 40%;
+    text-align:right;
+}
+.foot-social i {
+    padding:0 0 0 45px;
+    color:white;
+    font-size:1.5rem;
+}
+
+.foot-wrap p,
+.foot-wrap a {
+    color:rgb(153, 153, 153);
+}

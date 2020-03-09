@@ -1,0 +1,59 @@
+.top-nav-wrap {
+    width:60%;
+    margin:0 auto;
+}
+
+.top-nav {
+    margin:0 auto;
+}
+.top-nav ul {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:40px 0;
+}
+.top-nav a {
+    font-weight:700;
+}
+.top-nav ul li {
+    align-items: center
+}
+
+.top-nav-logo {
+    text-transform:capitalize;
+    padding:0 50px 0 125px;
+    font-size: 5.0rem;
+    font-family:"PlayFair Display", serif;
+    letter-spacing:1.2px;
+}
+
+.top-nav i {
+    font-size:2.0rem;
+}
+
+.top-nav-shopping {
+    margin-top:-10px;
+}
+.top-nav-shopping p {
+    color:rgb(164, 241, 220);
+    margin-top:-12px;
+    margin-left:9px;
+    font-size:2.0rem;
+}
+
+.top-nav-shopping h6 {
+    margin-top:-14px;
+    margin-left:15px;
+    font-weight:600;
+    font-family:"Poppins", serif;
+}
+
+.header-image {
+    width:100%;
+    margin:0 auto;
+}
+
+.header-image img {
+    width: 100%;
+    display: block;
+}
