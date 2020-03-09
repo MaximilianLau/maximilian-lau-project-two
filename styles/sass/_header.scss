@@ -22,6 +22,7 @@
 .top-nav-logo {
     text-transform:capitalize;
     padding:0 50px 0 125px;
+    margin-left:50px;
     font-size: 5.0rem;
     font-family:"PlayFair Display", serif;
     letter-spacing:1.2px;
@@ -56,4 +57,39 @@
 .header-image img {
     width: 100%;
     display: block;
+}
+
+.nav-burger {
+    display:none;
+}
+
+
+
+
+/* nav media queries */
+@media only screen and (max-width: 1400px) {
+    .top-nav-logo {
+        padding:0;
+
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .top-nav ul li a:not(.top-nav-logo) {
+        display:none;
+    }
+    .top-nav-logo {
+        margin:0;
+    }
+    .top-nav-shopping {
+        display:none;
+    }
+    .nav-burger {
+        display:block;
+        position:absolute;
+        top:35px;
+        right:50px;
+        font-size:3rem;
+    }
 }

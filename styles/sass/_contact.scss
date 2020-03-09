@@ -112,3 +112,59 @@
 .touch-button button:hover {
     color:blue;
 }
+
+/* media queries */
+@media only screen and (max-width: 1200px) {
+    .contact-details-wrap,
+    .touch-wrap {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .contact-details-wrap,
+    .touch-wrap {
+        width:90%;
+    }
+    .contact-details-wrap {
+        padding-top:25px;
+    }
+    .contact-details-title {
+        width:100%;
+    }
+    .touch-form input[type=text],
+    .touch-form input[type=email] {
+        width:50%;
+    }
+    .touch-form input[type=email] {
+        margin:0;
+    }
+    .touch-wrap form {
+        text-align:center;
+        width:100%;
+    }
+    .touch-title p {
+        padding-bottom: 25px;
+    }
+    .contact-details-wrap {
+        text-align:center;
+    }
+    .touch-wrap {
+        text-align:center;
+    }
+    .foot-social i {
+        padding: 0 0 0 10px;
+    }
+    .contact-details-contacts {
+       display:grid;
+        grid-template-columns: 1fr;
+        padding-bottom:30px;
+    }
+    .contact-details-list {
+        width: 100%;
+        padding: 10px;
+    }
+    .contacts-middle {
+        border:none;
+    }
+}

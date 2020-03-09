@@ -78,3 +78,27 @@
 .foot-wrap a {
     color:rgb(153, 153, 153);
 }
+
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+    .more-info-wrap,
+    .foot-wrap {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .more-info-wrap,
+    .foot-wrap {
+        width:90%;
+    }
+    .more-info-wrap {   
+        grid-template-columns:100%;
+    }
+    .more-info-sitemap-1,
+    .more-info-sitemap-2 {
+        display:none;
+    }
+}
